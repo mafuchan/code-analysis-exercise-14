@@ -19,16 +19,16 @@ function (user){
 
 Inputs and outputs should be valid JavaScript values!
 
-| Input | Output |
-| ----- | ------ |
-|       |        | 
-|       |        | 
-|       |        | 
+| Input | Output                                                |
+| ----- | ------                                                |
+| User1 | Welcome back, User1!                                  | 
+| User2 | Hey User2! Would you like to renew your subscription? | 
+| User3 | Welcome back, User3!                                  | 
 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td></td>
+    <td>The input of user is enetered in. If the user name is active, it returns the message 'Welcome back, User1!' If the user is not active it returns the message of 'Hey User2! Would you like to renew your subscription?'</td>
   </tr>
 </table>
 
