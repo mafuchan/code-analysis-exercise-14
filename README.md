@@ -15,15 +15,17 @@ function (user){
     return `Hey ${user.username}! Would you like to renew your subscription?`
   }
 }
+
+
 ```
 
 Inputs and outputs should be valid JavaScript values!
 
 | Input | Output                                                |
 | ----- | ------                                                |
-| User1 | Welcome back, User1!                                  | 
-| User2 | Hey User2! Would you like to renew your subscription? | 
-| User3 | Welcome back, User3!                                  | 
+| let user = user1 | console.log(user)  `Welcome back, user1!`                                  | 
+| let user = user2 | console.log(user)  `Hey user2! Would you like to renew your subscription?` | 
+| let user = user3 | console.log(user)  `Welcome back, user3!`                                  | 
 
 <table>
   <tr>
