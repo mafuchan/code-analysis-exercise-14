@@ -23,9 +23,9 @@ Inputs and outputs should be valid JavaScript values!
 
 | Input | Output                                                |
 | ----- | ------                                                |
-| let user = user1 | console.log(user)  `Welcome back, user1!`                                  | 
-| let user = user2 | console.log(user)  `Hey user2! Would you like to renew your subscription?` | 
-| let user = user3 | console.log(user)  `Welcome back, user3!`                                  | 
+| let user = "user1" | console.log(user)  `Welcome back, user1!`                                  | 
+| let user = "user2" | console.log(user)  `Hey user2! Would you like to renew your subscription?` | 
+| let user = "user3" | console.log(user)  `Welcome back, user3!`                                  | 
 
 <table>
   <tr>
