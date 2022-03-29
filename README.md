@@ -21,16 +21,16 @@ function (user){
 
 Inputs and outputs should be valid JavaScript values!
 
-| Input | Output                                                |
-| ----- | ------                                                |
-| let user = "user1" | console.log(user)  `Welcome back, user1!`                                  | 
-| let user = "user2" | console.log(user)  `Hey user2! Would you like to renew your subscription?` | 
-| let user = "user3" | console.log(user)  `Welcome back, user3!`                                  | 
+| Input   | Output  |
+| -----   | ------  |
+| "user1" | true  `Welcome back, user1!`  | 
+| "user2" | false `Hey user2! Would you like to renew your subscription?` | 
+| "user3" | true  `Welcome back, user3!`  | 
 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td>The input of user is enetered in. If the user name is active, it returns the message 'Welcome back, User1!' If the user is not active it returns the message of 'Hey User2! Would you like to renew your subscription?'</td>
+    <td>The input of user is enetered in. If the user name is active(true), it returns the message 'Welcome back, user1!' If the user is not active(false) it returns the message of 'Hey user2! Would you like to renew your subscription?'</td>
   </tr>
 </table>
 
